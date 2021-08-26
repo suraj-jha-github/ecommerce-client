@@ -21,12 +21,7 @@ const HomeScreen = () => {
           <MessageBox>{error}</MessageBox>
         ) : (
           <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              flexWrap: "wrap",
-            }}
+           className="homepage"
           >
             {products &&
               products.map((product) => <ProductScreen product={product} />)}

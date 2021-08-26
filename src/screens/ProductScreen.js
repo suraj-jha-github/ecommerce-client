@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 const ProductScreen = ({ product }) => {
   return (
-    <div className="card" style={{ maxWidth: "19rem", margin: "1.5rem" }}>
+    <div className="card" style={{margin: "1.5rem" }}>
       <Link
         to={`/product/${product._id}`}
         style={{ textDecoration: "none", color: "black" }}

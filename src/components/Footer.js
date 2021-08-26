@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <footer>
-            &copy; CopyRight by Harsh Upadhyay
+            &copy; CopyRight by Shop App
         </footer>
     )
 }

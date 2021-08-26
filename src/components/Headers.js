@@ -20,7 +20,7 @@ const Headers = () => {
     >
       <div className="container-fluid py-3">
         <Link className="navbar-brand" to="/">
-          Harsh Shop
+          Shop App
         </Link>
         <button
           className="navbar-toggler"
